@@ -1,0 +1,84 @@
+body{
+    background:#D84040;
+}
+h1{
+    color:#fff;
+    display:flex;
+    justify-content:center;
+}
+
+.coruja{
+    display:flex;
+    margin:10px;
+
+}
+.information{
+   
+    flex-direction:column;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    text-align: -webkit-center;
+    margin-left:20px;
+
+    
+
+}
+div .separacao{
+    align-items: center;
+    border-bottom:1px solid rgb(238, 23,23) ;
+    display: flex;
+    margin: 20px 16px;
+    text-align:center;
+}
+.card{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background:#fff;
+    width: min(90vw, 360px);
+    border-radius: 10px;
+    margin: 0 auto;
+    padding:10px;
+    box-shadow:1px 5px 10px 1px rgba(0, 0, 0, 0.10);
+    justify-content: center;
+}
+.dad{
+    text-align: -webkit-center;
+}
+#data{
+    justify-content: center;
+    padding:3px;
+    border-radius: 10px;
+    border:1px solid rgb(238, 23, 23);
+    margin: 5px;
+    outline: 0;
+}
+#hora{
+    justify-content: center;
+    padding:3px;
+    border-radius: 10px;
+    border:1px solid rgb(238, 23, 23);
+    margin: 5px;
+    outline: 0;
+}
+
+#semana{
+    justify-content: center;
+    padding:3px;
+    border-radius: 10px;
+    border:1px solid rgb(238, 23, 23);
+    margin: 5px;
+    outline: 0;
+}
+div .button{
+    border-radius: 10px;
+    padding:5px;
+    border: none;
+    background: rgb(238, 23,23);
+    color: #fff
+      
+}
+@media (max-width: 768px) {
+    #container {
+     display:flex ;
+     flex-direction: column;
+ }
+ }
